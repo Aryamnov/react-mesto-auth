@@ -31,6 +31,7 @@ function Register({ handleRegister }) {
           placeholder="Email"
           className="register__input"
           type="email"
+          value={data.email}
           minLength="2"
           onChange={handleChange}
           required
@@ -40,6 +41,7 @@ function Register({ handleRegister }) {
           placeholder="Пароль"
           className="register__input"
           type="password"
+          value={data.password}
           minLength="2"
           onChange={handleChange}
           required

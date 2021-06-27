@@ -31,6 +31,7 @@ function Login({ handleLogin }) {
           placeholder="Email"
           className="login__input"
           type="email"
+          value={data.email}
           minLength="2"
           onChange={handleChange}
           required
@@ -40,6 +41,7 @@ function Login({ handleLogin }) {
           placeholder="Пароль"
           className="login__input"
           type="password"
+          value={data.password}
           minLength="2"
           onChange={handleChange}
           required
